@@ -4,10 +4,10 @@
     "@tresjs/core": "^4.3.6",
     "@tresjs/leches": "^0.14.1",
     "@tresjs/post-processing": "^2.4.0",
-    "@vueuse/core": "^13.8.0",
-    "@vueuse/shared": "^13.8.0",
+    "@vueuse/core": "^13.9.0",
+    "@vueuse/shared": "^13.9.0",
     "gsap": "^3.13.0",
     "postprocessing": "^6.37.7",
-    "three": "^0.179.1"
+    "three": "^0.180.0"
   }
 }
