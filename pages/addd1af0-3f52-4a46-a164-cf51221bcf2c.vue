@@ -1,10 +1,8 @@
 <template>
-    <template>
-        <TresInstancedMesh ref="instanceMeshRef" :args="[null, null, count]">
-            <TresCylinderGeometry :args="[1, 1, 1, 6]"></TresCylinderGeometry>
-            <TresMeshLambertMaterial></TresMeshLambertMaterial>
-        </TresInstancedMesh>
-    </template>
+<TresInstancedMesh ref="instanceMeshRef" :args="[null, null, count]">
+    <TresCylinderGeometry :args="[1, 1, 1, 6]"></TresCylinderGeometry>
+    <TresMeshLambertMaterial></TresMeshLambertMaterial>
+</TresInstancedMesh>
 </template>
 
 <script lang="js" setup>
@@ -68,6 +66,4 @@ watch(instanceMesh, (mesh) => {
     }
 
 });
-
-
 </script>

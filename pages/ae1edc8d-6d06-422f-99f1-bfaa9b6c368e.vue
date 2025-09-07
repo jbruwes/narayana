@@ -1,0 +1,3 @@
+<template>
+    <TresAmbientLight></TresAmbientLight>
+</template>
